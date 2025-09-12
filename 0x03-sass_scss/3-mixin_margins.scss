@@ -1,0 +1,13 @@
+
+@mixin apply-margins( $right,  $left) {
+    margin-right: $right;
+    margin-left: $left;
+}
+
+body{
+    @include apply-margins((10px), (10px) )
+}
+
+div{
+    @include apply-margins((15px), (15px) )
+}
